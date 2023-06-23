@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>STUDENT PORTAL</title>
+        <link rel="stylesheet" href="portal.css">
+
+    </head>
+    <body>
+        <div class="container">
+          <div class="nav" >
+            <i class="logo" href="\">
+                <img src="logo.png" 
+                width="60" 
+             height="60" 
+             />
+            </i>
+                <pre>
+            MAXWELL
+            UNIVERSITY
+            </pre>
+          </div> <br>
+          <hr><br>
+          <form name="myForm"id="form" onsubmit="return validateForm()" method="post">
+            <label for="terry" >Reg.Number</label><br><br>
+            <input type="text"name="RegNumber" id="stiff" placeholder="Reg.Number"><br><br>
+            <label for="terry" >Password</label><br><br>
+            <div class="password-wrapper">
+            <input type="password"name="password" id="stifff" placeholder="Password">
+            <span id="showPassword" onclick="togglePasswordVisibility1()"></span>
+                </div><br>
+            <label for="remember"id="remember" class="white-label">
+            <input  name="remember" type="checkbox">
+           Remember me
+            </label><br><br><br>
+            <button type="submit" id="stif">Log In</button>
+          </form>
+          <div class="pa">
+            <a href="reset.php">
+          <i ><p>Forgot your password?</p></i></a>
+          </div><br><br>
+        </div>
+        <div class="end">
+            <p>2023 Designed by Maxwell Systems</p>
+        </div>
+        <script src="portal.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,206 @@
+.container {
+    width: 100%; /* Set the width of the container */
+    max-width: 330px; /* Set the maximum width of the container */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
+    padding: 25px; /* Add padding around the content within the container */
+    background-color: #8d1919; /* Set the background color of the container */
+    box-sizing: border-box; /* Include padding and border in the total width of the container */
+    /* Add more properties as needed */
+    align-items: center;
+    border-radius: 5px;
+    height: auto;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 80px;
+    max-width: 100%;
+    background-color: white;
+
+  }
+  
+  .nav pre{
+    margin-left: -170px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(196, 22, 22);
+  }
+  #stiff{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+  }
+  #email{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+  }
+  #name{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+   
+  }
+  #portal{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+  }
+  #stifff{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+#profilePicture{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+#password1,
+#password2{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+#new_password{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+#confirm_password{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+  .pa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    text-decoration: none;
+  }
+  
+  .pa:hover {
+    color: green;
+    text-decoration: none;
+  }
+  .pa p{color: green;
+    text-decoration: none;
+  }
+
+  
+    hr {
+        height: 2px; /* Adjust the height as needed */
+        background-color: white; /* Customize the color */
+        border: none; /* Remove the default border */
+      }
+      label[for="terry"]{
+        color: white;
+      }
+      #stif{
+        color: white;
+        background-color: rgb(70, 103, 222);
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+      }
+      .white-label {
+        color: white;
+      }
+      .end{
+        border: 1px solid blue;
+        width: 100%; /* Set the width of the container */
+        max-width: 330px; 
+        height: 20px;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgb(20, 20, 88);
+       margin-left: auto; /* Center the container horizontally */
+       margin-right: auto;
+      }
+      #showPassword {
+        position: absolute;
+        top: 50%;
+        right: 5px; /* Adjust the right position as needed */
+        transform: translateY(-50%);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("show.jpeg"); /* Replace with your actual image path */
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        border: 0.5px solid grey;
+      }
+      #show {
+        position: absolute;
+        top: 50%;
+        right: 5px; /* Adjust the right position as needed */
+        transform: translateY(-50%);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("show.jpeg"); /* Replace with your actual image path */
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        border: 0.5px solid grey;
+      }
+      .password-wrapper {
+        position: relative;
+      }
+      input::placeholder {
+        padding: 10px;
+      }
+     
+      .warning-message {
+        position: absolute;
+        top: 100px;
+        right: 485px;
+        background-color: #cfc7c7;
+        color: #100f0f;
+        padding: 20px;
+        height: 120px;
+        width: 20%;
+        font-weight: bold;
+        display: none;
+        text-align: center;
+        display: flex;
+      }
+      a {
+        text-decoration: none;
+      }
+      a p:hover {
+        color: yellow;
+      }
+      .warning-icon {
+        margin-right: 5px;
+        font-size: 40px;
+        color: #c87023;
+      }
+      .warning-message .warning-icon::before {
+        content: "\26A0"; /* Unicode for warning sign icon */
+        font-size: 40px;
+        color: #c87023;
+      }
+      
+      .warning-message .warning-icon,
+      .warning-message-text {
+        display: block;
+      }
